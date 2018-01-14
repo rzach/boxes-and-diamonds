@@ -1,0 +1,39 @@
+% bd.tex
+%
+% driver file bd.tex to produce text
+
+\preto\OLEndChapterHook{\IfFileExists{include/summary-\thechapter}
+        {\section*{Summary}\addcontentsline{toc}{section}{Summary}
+        \let\emph\textbf\input{include/summary-\thechapter}\let\emph\textit}{}}
+
+\problemsperchapter
+\allowdisplaybreaks
+
+\include{bd-frontmatter}
+
+\mainmatter
+
+\pagestyle{leadbeater}
+
+\include{bd-syntax-and-semantics}
+
+\include{bd-axioms-systems}
+
+\include{bd-completeness}
+
+\include{bd-filtrations}
+
+\include{bd-appendices}
+
+\stopproblems
+\def\ifproblems#1{}
+
+\def\captionnamefont{\sffamily\color{leadbeater}}
+\def\captiontitlefont{\sffamily\color{leadbeater}}
+
+\def\figurename{Fig.}
+\setlength{\olphotowidth}{.45\textwidth}
+
+\backmatter
+
+\include{bd-backmatter}
