@@ -8,6 +8,18 @@
 
 \DeclareMathAlphabet{\mathbi}{OT1}{pplx}{b}{it}
 
+% use the complex formula in induction cases rather
+
+\DeclareDocumentCommand \indcase { s t{!} m m +m }{%
+  \DeclareDocumentMacro \indfrm {#4}%
+  \DeclareDocumentMacro \indfrmp {#3}%
+  \DeclareDocumentMacro \indcomplex {#4}%
+  \IfBooleanTF{#1}
+     {$#3$ is atomic: }{$#3 \ident #4$: }
+  \IfBooleanTF{#2}
+     {exercise.}
+     {#5}}
+
 \DeclareDocumentCommand \Struct { m }{\mathbi #1}
 \DeclareDocumentCommand \mModel { m }{\mathbi #1}
 

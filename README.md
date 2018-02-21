@@ -18,16 +18,20 @@ site](http://builds.openlogicproject.org/).
 To install and compile:
 
 - Download/install the _Open Logic Text_ from
-  [GitHub](http://github.com/OpenLogicProject/OpenLogic/), including [photos](https://github.com/OpenLogicProject/photos) if you want those.
+  [GitHub](http://github.com/OpenLogicProject/OpenLogic/), including [photos](https://github.com/OpenLogicProject/photos) and [line art portraits](https://github.com/OpenLogicProject/portraits).
 - Navigate to the subdirectory `courses/`
 - Put the content of [this repository](https://github.com/rzach/boxes-and-diamonds) into a subdirectory of it, say
   `courses/boxes-and-diamonds`.
+- To get the graphics for the cover, navigate to the subdirectory `OpenLogic/assets` and put the content of `photos` into the subdirector `photos`, and the content of `portraits` into the subdirectory `portraits`
 
 If you use `git`, this should do it:
 ```
 # git clone https://github.com/OpenLogicProject/OpenLogic.git
 # cd OpenLogic/courses
 # git clone https://github.com/rzach/boxes-and-diamonds.git
+# cd ../assets
+# git clone https://github.com/OpenLogicProject/portraits.git
+# git clone https://github.com/OpenLogicProject/photos.git
 ```
 Inside `courses/boxes-and-diamonds`, you can now compile:
 ```
