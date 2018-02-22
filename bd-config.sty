@@ -23,6 +23,8 @@
 \DeclareDocumentCommand \Struct { m }{\mathbi #1}
 \DeclareDocumentCommand \mModel { m }{\mathbi #1}
 
+\DeclareDocumentCommand \pAssign { m } {\mathbi #1}
+
 \DeclareDocumentMacro \True {\mathbb{T}}
 
 \DeclareDocumentMacro \False {\mathbb{F}}
@@ -44,8 +46,6 @@
 
 \tagtrue{probAnd,probIf,probAll,probDiamond}
 
-% Which proof system?  Not sure yet, let's use natural deduction for
-% now. prfND is on by default, we just have to supress includion of
-% the sequent calculus.
+% Which proof system?  We'll need axiomatic deduction and tableaux
 
-\tagfalse{prfSC,prfAX}
+\tagfalse{prfSC,prfND}
