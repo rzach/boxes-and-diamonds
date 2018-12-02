@@ -11,7 +11,7 @@
 % use the complex formula in induction cases rather
 
 \DeclareDocumentCommand \indcase { s t{!} m m +m }{%
-  \DeclareDocumentMacro \indfrm {#4}%
+  \DeclareDocumentMacro \indfrm {#3}%
   \DeclareDocumentMacro \indfrmp {#3}%
   \DeclareDocumentMacro \indcomplex {#4}%
   \IfBooleanTF{#1}
