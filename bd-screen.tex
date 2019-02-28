@@ -15,9 +15,6 @@
 \RequirePackage[full]{textcomp}
 \RequirePackage{gitinfo2}
 
-\RequirePackage[pdftex,breaklinks,plainpages=false,pdfpagelabels,bookmarks,bookmarksopen,bookmarksopenlevel=1,colorlinks,urlcolor=dark-gray,linkcolor=reflex-blue]{hyperref}
-\usepackage[numbered]{bookmark}
-
 %\usepackage[nonumberlist,toc,style=index]{glossaries}
 %\makeglossaries
 
@@ -48,7 +45,7 @@
 
 % set stock & paper size with narrow margins
 
-\setstocksize{22cm}{17cm}
+\setstocksize{8in}{5in}
 
 \settrimmedsize{\stockheight}{\stockwidth}{*}
 \settrims{0pt}{0pt}
@@ -64,7 +61,7 @@
 % set spine and and edge margin
 
 \setlrmargins{*}{*}{1}
-\setulmargins{60pt}{*}{*}
+\setulmargins{.6in}{*}{*}
 \setheaderspaces{*}{*}{1}
 
 \checkandfixthelayout
@@ -84,13 +81,13 @@
   \renewcommand*{\afterchapternum}{\par\nobreak\vskip 0pt}
   \renewcommand*{\chapnamefont}{\fontsize{14pt}{0pt}\selectfont\sffamily\bfseries}
   \let\chapnumfont\chapnamefont
-  \renewcommand*{\chaptitlefont}{\normalfont\fontsize{48pt}{48pt}\selectfont\bfseries\itshape\color{leadbeater}}
+  \renewcommand*{\chaptitlefont}{\normalfont\fontsize{44pt}{44pt}\selectfont\bfseries\itshape\color{leadbeater}}
   \renewcommand*{\printchaptername}{%
     \chapnamefont\MakeUppercase{\@chapapp}}
   \renewcommand*{\printchaptertitle}[1]{%
     \chaptitlefont ##1\\[-\baselineskip]%
     \hspace*{-20pt}%
-    \smash{\color{leadbeater}\rule{7pt}{300pt}}}
+    \smash{\color{leadbeater}\rule{0pt}{300pt}}}
 }
 
 \renewcommand*{\partnamefont}{\fontsize{24pt}{0pt}\selectfont\bfseries\sffamily}
@@ -126,18 +123,20 @@
 
 \input{\olpath/sty/open-logic.sty}
 
-% we want all the problems deferred to the very end
-
-\input{\olpath/sty/open-logic-defer.sty}
-
 % colors for links
 
 \hypersetup{
 colorlinks,
   allcolors=dkleadbeater,
   pdftitle={Boxes and Diamonds},
-  pdfauthor = {Open Logic Project}
+  pdfauthor = {Richard Zach, Open Logic Project}
 }
+
+\usepackage[numbered]{bookmark}
+
+% we want all the problems deferred to the end
+
+\input{\olpath/sty/open-logic-defer.sty}
 
 % load glossary entries
 
