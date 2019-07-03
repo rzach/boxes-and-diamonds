@@ -1,6 +1,6 @@
 .PHONY: FORCE_MAKE
 
-all: bd-screen.pdf
+all: bd-screen.pdf bd-print.pdf bd-print-cover.pdf index.html
 
 print: bd-print.pdf
 

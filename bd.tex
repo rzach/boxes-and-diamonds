@@ -1,3 +1,4 @@
+% !TeX root = ./bd-screen.tex
 % bd.tex
 %
 % driver file bd.tex to produce text
@@ -12,11 +13,11 @@
 
 \frontmatter
 
-\include{bd-frontmatter}
+\OLPfrontmatter
+
+\include{include/preface}
 
 \mainmatter
-
-\pagestyle{leadbeater}
 
 \olimport*[normal-modal-logic]{normal-modal-logic}
 
@@ -80,18 +81,16 @@
 
 \OLEndChapterHook
 
-\olimport*[methods/proofs]{proofs}
-\olimport*[methods/induction]{induction}
-
 \stopproblems
 \def\ifproblems#1{}
 
-\def\captionnamefont{\sffamily\color{leadbeater}}
-\def\captiontitlefont{\sffamily\color{leadbeater}}
-
-\def\figurename{Fig.}
-\setlength{\olphotowidth}{.45\textwidth}
-
 \backmatter
 
-\include{bd-backmatter}
+\clearpage
+%\photocredits
+
+\bibliographystyle{\olpath/bib/natbib-oup}
+
+\bibliography{\olpath/bib/open-logic.bib}
+
+\olimport*{\olpath/content/open-logic-about}
