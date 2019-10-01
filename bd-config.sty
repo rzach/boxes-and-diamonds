@@ -20,10 +20,9 @@
      {exercise.}
      {#5}}
 
-\DeclareDocumentCommand \Struct { m }{\mathbi #1}
-\DeclareDocumentCommand \mModel { m }{\mathbi #1}
-
-\DeclareDocumentCommand \pAssign { m } {\mathbi #1}
+\DeclareDocumentCommand \Struct { m }{\applytofirst{\mathbi}{#1}}
+\DeclareDocumentCommand \mModel { m }{\applytofirst{\mathbi}{#1}}
+\DeclareDocumentCommand \pAssign { m }{\applytofirst{\mathbi}{#1}}
 
 \DeclareDocumentMacro \True {\mathbb{T}}
 
