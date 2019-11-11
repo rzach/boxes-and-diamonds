@@ -3,7 +3,9 @@
 ![Book Cover](http://builds.openlogicproject.org/courses/boxes-and-diamonds/bd.png)
 
 A textbook for modal and other intensional logics based on the Open
-Logic Project.
+Logic Project. It covers normal modal logics, relational semantics, 
+axiomatic and tableaux proof systems, intuitionistic logic, and 
+counterfactual conditionals.
 
 This repository/directory only contains the LaTeX files and
 illustrations needed to typeset the textbook _Boxes and Diamonds_,
