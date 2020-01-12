@@ -28,7 +28,7 @@ To install and compile:
 - Navigate to the subdirectory `courses/`
 - Put the content of [this repository](https://github.com/rzach/boxes-and-diamonds) into a subdirectory of it, say
   `courses/boxes-and-diamonds`.
-- To get the graphics for the cover, navigate to the subdirectory `OpenLogic/assets` and put the content of `photos` into the subdirector `photos`, and the content of `portraits` into the subdirectory `portraits`
+- To get the graphics for the cover, navigate to the subdirectory `OpenLogic/assets` and put the content of `photos` into the subdirectory `photos`, and the content of `portraits` into the subdirectory `portraits`
 
 If you use `git`, this should do it:
 ```
