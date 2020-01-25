@@ -1,6 +1,6 @@
 # Boxes and Diamonds
 
-![Book Cover](http://builds.openlogicproject.org/courses/boxes-and-diamonds/bd.png)
+![Book Cover](https://bd.openlogicproject.org/bd.png)
 
 A textbook for modal and other intensional logics based on the Open
 Logic Project. It covers normal modal logics, relational semantics, 
@@ -13,9 +13,9 @@ which in turn requires the _[Open Logic
 Text](http://github.com/OpenLogicProject/OpenLogic/)_.
 
 You can [download the
-PDF](http://builds.openlogicproject.org/courses/boxes-and-diamonds/bd-screen.pdf)
+PDF](https://bd.openlogicproject.org/bd-screen.pdf)
 of the most recent version from the [Open Logic builds
-site](http://builds.openlogicproject.org/), or order a
+site](https://bd.openlogicproject.org/), or order a
 hardcopy from Amazon [[US](https://www.amazon.com/dp/1077321384)]
 [[CA](https://www.amazon.ca/dp/1077321384)]
 [[UK](https://www.amazon.co.uk/dp/1077321384)]
@@ -56,7 +56,7 @@ material. It in turn includes other files, most of them from the
 `OpenLogic` repository. So you won't get a complete book unless you
 download into the right subdirectory of and compile from there.
 
-[![Creative Commons License](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png)](http://creativecommons.org/licenses/by/4.0/) 
+[![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png)](http://creativecommons.org/licenses/by/4.0/) 
 
 _[Boxes and Diamonds](https://github.com/rzach/boxes-and-diamonds)_ by [Richard
 Zach](http://richardzach.org/) is licensed under a [Creative
