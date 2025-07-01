@@ -19,7 +19,8 @@ site](https://bd.openlogicproject.org/), or order a
 hardcopy from Amazon [[US](https://www.amazon.com/dp/1077321384)]
 [[CA](https://www.amazon.ca/dp/1077321384)]
 [[UK](https://www.amazon.co.uk/dp/1077321384)]
-[[DE](https://www.amazon.de/dp/1077321384)].
+[[DE](https://www.amazon.de/dp/1077321384)]. Note that the version on
+Amazon is usually not as current as the PDF.
 
 To install and compile:
 
